@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f9f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #5bb85c;
+  color: white;
+  padding: 1.8rem 1rem;
+  text-align: center;
+  border-bottom: 4px solid #4c9e4d;
+}
+
+header img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+section {
+  padding: 2rem 1.2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  color: #3a7b3b;
+  margin-top: 0;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.2rem;
+  margin: 1rem 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: transform 0.1s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-3px);
+}
+
+footer {
+  background-color: #5bb85c;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-top: 4px solid #4c9e4d;
+}
+
+.section-image {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  display: block;
+  margin: 1rem auto 2rem auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+
+@media (max-width: 900px) {
+  body {
+    font-size: 16px;
+  }
+
+  header img {
+    max-width: 350px;
+  }
+
+  section {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 1.2rem 0.8rem;
+  }
+
+  header img {
+    max-width: 260px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  .card {
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+
+  section {
+    padding: 1.2rem;
+  }
+}
